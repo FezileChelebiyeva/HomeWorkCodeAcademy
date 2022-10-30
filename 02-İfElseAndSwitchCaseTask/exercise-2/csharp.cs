@@ -1,4 +1,6 @@
-﻿// 2. 3 ədəd içindən cəmləri ən böyük olan 2 ədədi qaytarmaq
+﻿// See https://aka.ms/new-console-template for more information
+
+// 2. 3 ədəd içindən cəmləri ən böyük olan 2 ədədi qaytarmaq
 
 int a = 28;
 int b = 83;
@@ -16,4 +18,3 @@ else if (a + c > b + c && a + c > a + b)
 {
     Console.WriteLine(c + " " + a);
 }
-
