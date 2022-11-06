@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Page</title>
+</head>
+<body>
+    <h1>Xahiş Olunur Formu Tam Şəkildə Doldurun.</h1>
+    <hr>
+    <h2>Hesab Məlumatlarınız</h2>
+    <form>
+        <table>
+        <label for="İstifadəçi adı">İstifadəçi adı: </label>
+        <input type="text" id="İstifadəçi adı" name="İstifadəçi adı" placeholder="istifadəçi adınızı yazın">
+        <br><br>
+        <label for="Eposta">Eposta: </label>
+        <input type="email" id="Eposta" name="Eposta" placeholder="epostanızı yazın">
+        <br><br>
+        <label for="Parol">Parol: </label>
+        <input type="password" id="Parol" name="Parol" placeholder="parolunuzu yazın">
+    </table>
+    </form>
+    <h2>Şəxsi Məlumatlarınız</h2>
+    <form>
+        <label for="ad">Adınız: </label>
+        <input type="text" id="ad" name="ad" placeholder="ad yazın">
+        <br><br>
+        <label for="soyad">Soy adınız: </label>
+        <input type="text" id="soyad" name="soyad" placeholder="soyad yazın">
+        <br><br>
+        <label for="Şəhər">Şəhər: </label>
+        <select name="Şəhər" id="Şəhər" placeholder="Seçin">
+            <option value="">Seçin</option>
+            <option value="">Baku</option>
+            <option value="">Xaçmaz</option>
+            <option value="">Gəncə</option>
+            <option value="">Mingəçevir</option>
+            <option value="">Şəki</option>
+            <option value="">Yevlax</option>
+            <option value="">Sumqayıt</option>
+            <option value="">Astara</option>
+            <option value="">Lənkəran</option>
+            <option value="">Naxçıvan</option>
+            <option value="">Yardımlı</option>
+            <option value="">Lerik</option>
+            <option value="">Digər</option>
+        </select>
+        <br><br>
+        <label >Cinsiyyət: </label>
+        <input type="radio" id="kişi" name="Cinsiyyət">
+        <label for="kişi">Kişi</label>
+        <input type="radio" id="qadın" name="Cinsiyyət">
+        <label for="qadın">Qadın</label>
+        <br><br>
+        <label >Hobiləriniz: </label>
+        <input type="radio" id="sinema" name="sinema">
+        <label for="sinema">Sinema</label>
+        <input type="radio" id="gəzmək" name="gəzmək">
+        <label for="gəzmək">Gəzmək:</label>
+        <input type="radio" id="idman" name="idman">
+        <label for="idman">İdman</label>
+        <input type="radio" id="kitab" name="kitab">
+        <label for="kitab">Kitab</label>
+        <br><br>
+        <input type="submit" value="Yadda saxla">
+    </form>
+</body>
+</html>
